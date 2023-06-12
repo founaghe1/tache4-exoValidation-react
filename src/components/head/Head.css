@@ -1,0 +1,19 @@
+.head{
+    background-image: url(../../assets/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.arrow  {
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(-20px);
+      }
+      50% {
+          transform: translateY(20px);
+      }
+      100% {
+          transform: translateY(-20px);
+      }
+  }
