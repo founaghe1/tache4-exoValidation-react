@@ -41,3 +41,56 @@
 .navbar{
   background-color:rgba(0, 191, 255, 0.392);
 }
+
+/* -------------- firstSection -------------- */
+.learnMore1{
+  text-decoration: none;
+  border-bottom: 4px solid rgb(255, 187, 0);
+}
+.learnMore2{
+  text-decoration: none;
+  border-bottom: 4px solid rgb(228, 2, 70);
+}
+.graphDesi, .photographique{
+  margin-top: 45%;
+}
+
+@media screen and (max-width: 500px) {
+  .colPhoto{
+    margin-top: 304px !important;
+  }
+}
+
+
+/* ---------------- Testimonial ------------ */
+
+.testimo{
+  margin-top: 510px !important;
+  padding-top: 25px;
+}
+
+.emily img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+} 
+.divEmily{
+  line-height: 0.5;
+}
+.h3testi, .emilyMarket{
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 500px) {
+  .testimo{
+    margin-top: 310px !important;
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .testimo{
+    margin-top: 310px !important;
+    padding-top: 25px;
+  }
+}
