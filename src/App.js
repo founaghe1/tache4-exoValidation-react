@@ -2,6 +2,8 @@ import './App.css';
 import { Header } from './components/header/Header';
 import { FirstSection } from './components/firstSection/FirstSection';
 import { Testimonial } from './components/testimonial/Testimonial';
+import { Projects } from './components/projects/Projects';
+import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <FirstSection />
       <Testimonial />
+      <Projects />
+      <Footer />
     </div>
   );
 }
