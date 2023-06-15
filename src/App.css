@@ -101,3 +101,14 @@
 .footer{
   background-color: rgb(7, 145, 127);
 }
+
+.footer .fb, .insta, .twiter, .pint {
+  cursor: pointer;
+}
+.footer .fb :hover, .insta :hover, .twiter :hover, .pint :hover{
+  color: aliceblue;
+}
+.footerdiv a:hover{
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700;
+}

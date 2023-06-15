@@ -18,16 +18,16 @@ export const Footer = () =>{
             <h3 className="text-center">sunnyside</h3>
             <div className="row">
                 <div className="col text-center ">
-                    <p className="footer">
-                        <a href="#" className="text-decoration-none text-dark ">About</a>
-                        <a href="#" className="text-decoration-none text-dark mx-3 ">Services</a>
-                        <a href="#" className="text-decoration-none text-dark ">Projects</a>
-                    </p>
+                    <div className="footerdiv mb-4">
+                        <a href="#" className="text-decoration-none text-dark al">About</a>
+                        <a href="#" className="text-decoration-none text-dark mx-3 al">Services</a>
+                        <a href="#" className="text-decoration-none text-dark al">Projects</a>
+                    </div>
                     <div>
-                        <BsFacebook className="fs-4"/>
-                        <AiFillInstagram className="fs-3 mx-2" />
-                        <AiFillTwitterCircle className="fs-4" />
-                        <BsPinterest className="fs-4 ms-2" />
+                        <BsFacebook className="fs-4 fb"/>
+                        <AiFillInstagram className="fs-3 mx-2 insta" />
+                        <AiFillTwitterCircle className="fs-4 twiter" />
+                        <BsPinterest className="fs-4 ms-2 pint" />
                     </div>
                 </div>
             </div>
