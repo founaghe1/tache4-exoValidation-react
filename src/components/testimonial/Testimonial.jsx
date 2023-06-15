@@ -10,9 +10,9 @@ export const Testimonial = () =>{
 
 
     // unitialisation de Aos
-    // useEffect(() => {
-    //     AOS.init();
-    //   }, []);
+    useEffect(() => {
+        AOS.init();
+      }, []);
     return(
         <div className="container testimo">
             <div className="row my-5">
