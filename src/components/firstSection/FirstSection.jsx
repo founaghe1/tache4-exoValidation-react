@@ -4,32 +4,42 @@ import  oeuf  from '../../assets/images/desktop/image-transform.jpg'
 import cup from '../../assets/images/desktop/image-stand-out.jpg'
 import raisin from '../../assets/images/desktop/image-graphic-design.jpg'
 import orange from '../../assets/images/desktop/image-photography.jpg'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 export const FirstSection = () => {
+
+    // Unitialisation de Aos
+    useEffect(() => {
+        AOS.init();
+      }, []);
+
+
     return(
-        <div className="container-fluid">
+        <div className="container-fluid p-0">
             <div className="row g-0">
-                <div className="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-md-center my-5 my-md-0">
+                <div className="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-md-center my-5 my-md-0" data-aos="zoom-in-left">
                     <div className="w-75">
                         <h1>Transform your brand</h1>
                         <p className="my-lg-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, dignissimos accusantium! Eius illum eveniet perferendis obcaecati quos? </p>
                         <p className="fw-bold"><a href="#" className="text-dark learnMore1">LEARN MORE</a></p>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-md-6 col-sm-12" data-aos="zoom-in-right">
                     <div>
                         <img src={oeuf} alt="" className="w-100"/>
                     </div>
                 </div>
             </div>
             <div className="row g-0">
-                <div className="col-md-6 col-sm-12">
+                <div className="col-md-6 col-sm-12" data-aos="zoom-in-left">
                     <div>
                         <img src={cup} alt="" className="w-100"/>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-md-center my-5 my-md-0">
+                <div className="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-md-center my-5 my-md-0" data-aos="zoom-in-right">
                     <div className="w-75">
                     <h1>Transform your brand</h1>
                         <p className="my-lg-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, dignissimos accusantium! Eius illum eveniet perferendis obcaecati quos? </p>
@@ -39,7 +49,7 @@ export const FirstSection = () => {
             </div>
 
             <div className="row g-0">
-                <div className="col-md-6 col-sm-12 position-relative">
+                <div className="col-md-6 col-sm-12 position-relative" data-aos="zoom-in-left">
                     <div className="position-relative">
                         <img src={raisin} alt="" className="w-100 position-absolute"/>
                         <div className="graphDesi position-absolute d-flex justify-content-center">
@@ -50,7 +60,7 @@ export const FirstSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12 position-relative colPhoto">
+                <div className="col-md-6 col-sm-12 position-relative colPhoto" data-aos="zoom-in-right">
                     <div className="position-relative">
                         <img src={orange} alt="" className="w-100 position-absolute"/>
                         <div className="photographique position-absolute d-flex justify-content-center">

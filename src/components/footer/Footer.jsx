@@ -1,10 +1,20 @@
 import React from "react";
 import { BsFacebook, BsPinterest } from 'react-icons/bs';
 import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Footer = () =>{
+
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+
     return(
-        <div className="container-fluid py-5 footer">
+        <div className="container-fluid py-5 footer" data-aos="zoom-in" data-aos-duration="2000">
             <h3 className="text-center">sunnyside</h3>
             <div className="row">
                 <div className="col text-center ">
